@@ -1,8 +1,13 @@
+import Header from '../comopents/Header/Header'
+import Footer from '../comopents/Footer/Footer'
+
 function Home() {
     return (
         <>
+           <Header />
            <h1>Home</h1>
            <p>Subtitle</p>
+           <Footer />
         </>
     )
 }

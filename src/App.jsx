@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 // PAGES
 import Home from './pages/Home'
 import About from './pages/About'
@@ -6,7 +6,6 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Router>
